@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrllvwNo1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".8" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#014b96"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/DMHead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/DMHeader"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14pt" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#e5001b"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/Ringdmhi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/hi"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10pt" />
+
+                <TextView
+                    android:id="@+id/Ringdmhs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/hs"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10pt" />
+
+        
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi0800"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t0800"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+
+                <TextView
+                    android:id="@+id/dmhs0745"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t0745"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+                 
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi0820"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t0820"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+
+                <TextView
+                    android:id="@+id/dmhs0835"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t0835"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi0840"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t0840"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+
+                <TextView
+                    android:id="@+id/dmhs0935"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t0935"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi0920"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t0920"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+
+                <TextView
+                    android:id="@+id/dmhs1035"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1035"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1020"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1020"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+
+                <TextView
+                    android:id="@+id/dmhs1135"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1135"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1040"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1040"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+
+                <TextView
+                    android:id="@+id/dmhs1235"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1235"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1120"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1120"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+
+                <TextView
+                    android:id="@+id/dmhs1335"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1335"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1140"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1140"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+
+                <TextView
+                    android:id="@+id/dmhs1435"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1435"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1200"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1200"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+
+                <TextView
+                    android:id="@+id/dmhs1535"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1535"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1250"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1250"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+
+                <TextView
+                    android:id="@+id/dmhs1635"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1635"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1320"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1320"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+
+                <TextView
+                    android:id="@+id/dmhs1735"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1735"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1340"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1340"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+
+                <TextView
+                    android:id="@+id/dmhs1835"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1835"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1440"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1440"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+
+                <TextView
+                    android:id="@+id/dmhs1935"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1935"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1510"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1510"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+
+                <TextView
+                    android:id="@+id/dmhs2035"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t2035"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1540"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1540"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+
+                <TextView
+                    android:id="@+id/dmhs2135"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t2135"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+            </TableRow>
+               <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1625"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1625"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+
+                <TextView
+                    android:id="@+id/dmhs2235"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t2235"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+            </TableRow>
+               <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1640"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1640"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+
+                <TextView
+                    android:id="@+id/dmhs2335"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t2335"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+            </TableRow>
+              <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1720"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1720"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+
+                <TextView
+                    android:id="@+id/dmhse1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/tempty"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+            </TableRow>
+               <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1740"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1740"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+
+                <TextView
+                    android:id="@+id/dmhse2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/tempty"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+            </TableRow>
+              <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1815"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1815"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+
+                <TextView
+                    android:id="@+id/dmhse2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/tempty"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+            </TableRow>
+               <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi1915"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t1915"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+
+                <TextView
+                    android:id="@+id/dmhse3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/tempty"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+            </TableRow>
+              <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi2015"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t2015"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+
+                <TextView
+                    android:id="@+id/dmhse4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/tempty"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+            </TableRow>
+               <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi2115"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t2115"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+
+                <TextView
+                    android:id="@+id/dmhse5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/tempty"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+            </TableRow>
+              <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi2215"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t2215"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+
+                <TextView
+                    android:id="@+id/dmhse6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/tempty"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#e5001b" />
+            </TableRow>
+               <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/dmhi2315"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/t2315"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+
+                <TextView
+                    android:id="@+id/dmhse7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/tempty"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#014b96" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".25"
+                    android:background="#e5001b" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".25"
+                    android:background="#014b96" />
+            </TableRow>
+        </LinearLayout>
+    </ScrollView>
+
+</TableLayout>
